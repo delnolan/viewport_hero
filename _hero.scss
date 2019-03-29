@@ -1,0 +1,22 @@
+.hero{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	h1{
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: 0;
+		transform: translateX(-50%) translateY(-50%);
+		-webkit-transform: translateX(-50%) translateY(-50%);
+	}
+	img{
+		width: 100%;
+	}
+	.portrait{
+		height: 100%;
+		width: auto;
+		max-width: none;
+	}
+}
